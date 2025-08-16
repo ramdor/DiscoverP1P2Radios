@@ -6,6 +6,7 @@ Notes:
 - Radios running original Apache Labs firmware (such as the 100D, 7000, or 8000) may show sequence (SEQ) errors when this tool is used while connected to Thetis.
 - HermesLite2 radios will disappear from the list if they are already in use by another host (for example, Thetis), as they do not respond to discovery packets while busy.
 - G2 radios are unaffected and will still respond even if Thetis is connected at the same time.
+- Windows 10/11 only
 
 <img width="844" height="555" alt="image" src="https://github.com/user-attachments/assets/831b9b98-4153-4b9f-8784-50f4a98def0e" />
 
