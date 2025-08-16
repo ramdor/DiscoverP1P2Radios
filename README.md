@@ -1,11 +1,11 @@
 # Discover Protocol 1 and Protocol 2 Radios
 
-A small tool that attempts to find Protocol 1 and Protocol 2 radios on any available network interface. It is great to find radios that you are not sure what IP's have been allocated for example.
+This lightweight tool scans all available network interfaces to locate Protocol 1 and Protocol 2 radios. It is particularly useful when you are unsure which IP addresses have been assigned to your radios.
 
-Note:
-- original firmware radios from Apache Labs, such as 100D, 7000/8000 etc will exhibit sequence (SEQ) errors when running this tool if they are connected to Thetis
-- HermesLite2 radios will drop from the list if they are connected to another host such as Thetis. They do not reply to the discovery packet when they are 'busy'
-- G2 radios are not impacted if Thetis is connected to them and this tool is also running
+Notes:
+- Radios running original Apache Labs firmware (such as the 100D, 7000, or 8000) may show sequence (SEQ) errors when this tool is used while connected to Thetis.
+- HermesLite2 radios will disappear from the list if they are already in use by another host (for example, Thetis), as they do not respond to discovery packets while busy.
+- G2 radios are unaffected and will still respond even if Thetis is connected at the same time.
 
 
 ## Free Use Software Licence Agreement
