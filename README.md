@@ -7,6 +7,7 @@ Notes:
 - HermesLite2 radios will disappear from the list if they are already in use by another host (for example, Thetis), as they do not respond to discovery packets while busy.
 - G2 radios are unaffected and will still respond even if Thetis is connected at the same time.
 
+<img width="844" height="555" alt="image" src="https://github.com/user-attachments/assets/831b9b98-4153-4b9f-8784-50f4a98def0e" />
 
 ## Free Use Software Licence Agreement
 
